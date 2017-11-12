@@ -20,14 +20,23 @@ Vue + localStorage + hash
 ## Vue相关知识点练习：
 - 加载环境
 > npm init -y  初始化package.json
-npm i -S underscore vue todomvc-app-css 装载环境
-vim index.html
-复制格式化后的html
-引入css
-将英文标题换成中文标题
-引入vue.js
-新建vue的实例
-写一个默认的任务：todoList: [{}]
+---
+> npm i -S underscore vue todomvc-app-css 装载环境
+---
+> vim index.html
+---
+> 复制格式化后的html
+---
+> 引入css
+---
+> 将英文标题换成中文标题
+---
+> 引入vue.js
+---
+> 新建vue的实例
+---
+> 写一个默认的任务：todoList: [{}]
+---
 - el选项挂载DOM
 ```
   // 新建一个Vue的实例对象
